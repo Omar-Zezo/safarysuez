@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/safarysuez/static/css/main.0b0d96f0.chunk.css",
+    "main.js": "/safarysuez/static/js/main.628f0111.chunk.js",
+    "main.js.map": "/safarysuez/static/js/main.628f0111.chunk.js.map",
+    "runtime-main.js": "/safarysuez/static/js/runtime-main.0af520fc.js",
+    "runtime-main.js.map": "/safarysuez/static/js/runtime-main.0af520fc.js.map",
+    "static/css/2.f05182aa.chunk.css": "/safarysuez/static/css/2.f05182aa.chunk.css",
+    "static/js/2.af1c3624.chunk.js": "/safarysuez/static/js/2.af1c3624.chunk.js",
+    "static/js/2.af1c3624.chunk.js.map": "/safarysuez/static/js/2.af1c3624.chunk.js.map",
+    "index.html": "/safarysuez/index.html",
+    "static/css/2.f05182aa.chunk.css.map": "/safarysuez/static/css/2.f05182aa.chunk.css.map",
+    "static/css/main.0b0d96f0.chunk.css.map": "/safarysuez/static/css/main.0b0d96f0.chunk.css.map",
+    "static/js/2.af1c3624.chunk.js.LICENSE.txt": "/safarysuez/static/js/2.af1c3624.chunk.js.LICENSE.txt",
+    "static/media/mainStyle.css": "/safarysuez/static/media/s2.23381ede.webp",
+    "static/media/abdelrahman.d191df79.webp": "/safarysuez/static/media/abdelrahman.d191df79.webp",
+    "static/media/abdo-wazery.54fc83b2.webp": "/safarysuez/static/media/abdo-wazery.54fc83b2.webp",
+    "static/media/ahmed-tito.28fa342b.webp": "/safarysuez/static/media/ahmed-tito.28fa342b.webp",
+    "static/media/ali-wazery.3416533d.webp": "/safarysuez/static/media/ali-wazery.3416533d.webp",
+    "static/media/logo.21f96720.webp": "/safarysuez/static/media/logo.21f96720.webp",
+    "static/media/masry.a952820f.webp": "/safarysuez/static/media/masry.a952820f.webp",
+    "static/media/memewazery.dedd8d88.webp": "/safarysuez/static/media/memewazery.dedd8d88.webp",
+    "static/media/pic01.d00962ac.webp": "/safarysuez/static/media/pic01.d00962ac.webp",
+    "static/media/pic02.c72b35ee.webp": "/safarysuez/static/media/pic02.c72b35ee.webp",
+    "static/media/pic03.31e53917.webp": "/safarysuez/static/media/pic03.31e53917.webp",
+    "static/media/pic04.a8cbbcba.webp": "/safarysuez/static/media/pic04.a8cbbcba.webp",
+    "static/media/trip.c8b51cbe.webp": "/safarysuez/static/media/trip.c8b51cbe.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0af520fc.js",
+    "static/css/2.f05182aa.chunk.css",
+    "static/js/2.af1c3624.chunk.js",
+    "static/css/main.0b0d96f0.chunk.css",
+    "static/js/main.628f0111.chunk.js"
+  ]
+}
