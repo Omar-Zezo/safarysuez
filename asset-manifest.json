@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/safarysuez/static/css/main.0b0d96f0.chunk.css",
+    "main.css": "/safarysuez/static/css/main.2608c42c.chunk.css",
     "main.js": "/safarysuez/static/js/main.628f0111.chunk.js",
     "main.js.map": "/safarysuez/static/js/main.628f0111.chunk.js.map",
     "runtime-main.js": "/safarysuez/static/js/runtime-main.0af520fc.js",
@@ -10,7 +10,7 @@
     "static/js/2.af1c3624.chunk.js.map": "/safarysuez/static/js/2.af1c3624.chunk.js.map",
     "index.html": "/safarysuez/index.html",
     "static/css/2.f05182aa.chunk.css.map": "/safarysuez/static/css/2.f05182aa.chunk.css.map",
-    "static/css/main.0b0d96f0.chunk.css.map": "/safarysuez/static/css/main.0b0d96f0.chunk.css.map",
+    "static/css/main.2608c42c.chunk.css.map": "/safarysuez/static/css/main.2608c42c.chunk.css.map",
     "static/js/2.af1c3624.chunk.js.LICENSE.txt": "/safarysuez/static/js/2.af1c3624.chunk.js.LICENSE.txt",
     "static/media/mainStyle.css": "/safarysuez/static/media/s2.23381ede.webp",
     "static/media/abdelrahman.d191df79.webp": "/safarysuez/static/media/abdelrahman.d191df79.webp",
@@ -30,7 +30,7 @@
     "static/js/runtime-main.0af520fc.js",
     "static/css/2.f05182aa.chunk.css",
     "static/js/2.af1c3624.chunk.js",
-    "static/css/main.0b0d96f0.chunk.css",
+    "static/css/main.2608c42c.chunk.css",
     "static/js/main.628f0111.chunk.js"
   ]
 }
