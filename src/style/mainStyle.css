@@ -311,8 +311,9 @@ a {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    height: 40vh;
+    height: 33vh;
     width: 80vw;
+    height: 33vh;
   }
 }
 
