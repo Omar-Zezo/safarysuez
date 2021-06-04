@@ -1,0 +1,152 @@
+.one-day {
+  margin-top: 100px;
+  .container {
+    flex-direction: column;
+    h2 {
+      position: relative;
+      display: inline-block;
+      font-size: 30px;
+      font-weight: 400;
+      margin: auto;
+      margin-bottom: 100px;
+      text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+      color: $mainColor;
+      &::before {
+        content: "";
+        width: 50px;
+        height: 3px;
+        background-color: $secondColor;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -60px;
+      }
+      &::after {
+        content: "";
+        width: 50px;
+        height: 3px;
+        background-color: $secondColor;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: -60px;
+      }
+      @media screen and (max-width: 576px) {
+        font-size: 18px;
+        font-weight: bold;
+        &::after {
+          width: 25px;
+          right: -35px;
+        }
+        &::before {
+          width: 25px;
+          left: -35px;
+        }
+      }
+    }
+    .all-trips {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      @media screen and (max-width: 576px) {
+        flex-direction: column;
+      }
+      .trip {
+        position: relative;
+        width: calc(80% / 3);
+        height: 550px;
+        margin-right: 30px;
+        padding-bottom: 20px;
+        border-radius: 3px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+        transition: all 0.3s ease-in-out;
+        @media screen and (max-width: 576px) {
+          width: 100%;
+          margin: 0;
+          margin-bottom: 20px;
+        }
+        &:hover {
+          transform: translate(2%, 2%);
+        }
+        .card-img {
+          background-size: cover;
+          height: 45%;
+          border-top-left-radius: 3px;
+          border-top-right-radius: 3px;
+          background-blend-mode: screen;
+          clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        }
+        .card-info {
+          position: absolute;
+          top: 32%;
+          right: 5%;
+          width: 60%;
+          padding: 5px 10px;
+          opacity: 0.8;
+          text-align: right;
+          transform: skew(-15deg);
+          box-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
+          p {
+            font-size: 25px;
+            font-weight: 400;
+            padding: 0;
+            color: #fff;
+            transform: skew(15deg);
+            &:last-child {
+              margin-right: 30px;
+            }
+          }
+        }
+        .card-info-one,
+        .details-1 {
+          background: linear-gradient(to right bottom, #2998ff, #5643fa);
+        }
+        .card-info-two,
+        .details-2 {
+          background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+        }
+        .card-info-three,
+        .details-3 {
+          background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+        }
+        .card-one {
+          background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
+            url(../imgs/c-1.webp);
+        }
+        .card-two {
+          background-image: linear-gradient(to right bottom, #7ed56f, #28b485),
+            url(../imgs/c-2.webp);
+        }
+        .card-three {
+          background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
+            url(../imgs/c-3.webp);
+        }
+        .trip-info {
+          text-align: center;
+          margin-top: 60px;
+          li {
+            width: 70%;
+            margin: auto;
+            padding: 10px 0;
+            font-size: 14px;
+            color: #666;
+            border-bottom: 1px solid #eee;
+          }
+        }
+        .details {
+          display: inline-block;
+          margin-top: 20px;
+          font-size: 13px;
+          font-weight: bold;
+          padding: 10px 20px;
+          color: #fff;
+          background-color: #5643fa;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}

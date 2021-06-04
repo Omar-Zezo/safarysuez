@@ -1,0 +1,94 @@
+.reviews {
+  margin: 100px 0;
+  text-align: center;
+  h2 {
+    position: relative;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    color: $mainColor;
+    &::before {
+      content: "";
+      width: 50px;
+      height: 3px;
+      background-color: $secondColor;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -60px;
+    }
+    &::after {
+      content: "";
+      width: 50px;
+      height: 3px;
+      background-color: $secondColor;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: -60px;
+    }
+    @media screen and (max-width: 576px) {
+      font-size: 18px;
+      font-weight: bold;
+      &::after {
+        width: 25px;
+        right: -35px;
+      }
+      &::before {
+        width: 25px;
+        left: -35px;
+      }
+    }
+  }
+  .swiper-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    .swiper-slide {
+      text-align: center;
+      height: 350px;
+      position: relative;
+      overflow: visible;
+      .review {
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 90%;
+        height: 83%;
+        background-color: #fff;
+        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+        p {
+          width: 80%;
+          margin: auto;
+          line-height: 1.5;
+          font-size: 13px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: $textColor;
+        }
+        span {
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 30px;
+          color: #fb9300;
+          font-size: 20px;
+        }
+      }
+      img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 90px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}
