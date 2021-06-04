@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import WOW from 'wowjs'
-import Preloader from './components/Preloader/Preloader';
 import Header from './components/Header/Header';
 import About from './components/About/About';
 import CallUs from './components/CallUs/CallUs';
@@ -20,7 +19,6 @@ function App() {
   })
   return (
     <div className="App">
-      <Preloader />
       <Header />
       <About />
       <CallUs />
