@@ -323,6 +323,12 @@ a {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .header {
+    height: calc(100vh - 5px);
+  }
+}
+
 .about .about-container {
   text-align: center;
   width: 100%;
