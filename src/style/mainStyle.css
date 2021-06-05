@@ -72,7 +72,7 @@ a {
 }
 
 .navigation .nav .logo a {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   color: #fff;
   margin-right: 10px;
@@ -127,6 +127,7 @@ a {
   }
   .navigation .nav .nav-list li a {
     font-size: 13px;
+    padding: 5px 0;
   }
 }
 
@@ -320,12 +321,6 @@ a {
   }
   .header .offers .offer p {
     font-size: 15px !important;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .header {
-    height: calc(100vh - 5px);
   }
 }
 
