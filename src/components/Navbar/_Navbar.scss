@@ -50,7 +50,23 @@
           }
         }
       }
-      @media screen and (min-width : 577px)and (max-width : 991px) {
+      @media screen and (max-width : 576px) {
+        position: absolute;
+        left: 0;
+        top: 63px;
+        width: 100%;
+        display: none;
+        background: #4caf50ab;
+        text-align: right;
+        li {
+          display: block;
+          a {
+            font-size: 13px;
+            padding: 10px 0;
+          }
+        }
+      }
+      @media screen and (min-width : 577px) and (max-width : 991px){
         position: absolute;
         left: 0;
         top: 81px;

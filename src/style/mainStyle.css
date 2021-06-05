@@ -112,6 +112,25 @@ a {
   color: #89BA4F;
 }
 
+@media screen and (max-width: 576px) {
+  .navigation .nav .nav-list {
+    position: absolute;
+    left: 0;
+    top: 63px;
+    width: 100%;
+    display: none;
+    background: #4caf50ab;
+    text-align: right;
+  }
+  .navigation .nav .nav-list li {
+    display: block;
+  }
+  .navigation .nav .nav-list li a {
+    font-size: 13px;
+    padding: 10px 0;
+  }
+}
+
 @media screen and (min-width: 577px) and (max-width: 991px) {
   .navigation .nav .nav-list {
     position: absolute;
