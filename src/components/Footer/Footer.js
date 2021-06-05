@@ -7,58 +7,6 @@ export default function Footer() {
     <div id="footer" className="footer">
       <div className="container">
         <div className="footer-content">
-          <section className="section-one">
-            <div className="articales">
-              <h4>رحلات سفارى المميزة</h4>
-              <div className="art-items">
-                <div className="articale">
-                  <img src={BlogImg} alt="art-1" />
-                  <span className="art-info">
-                    <h5>عروض تصميم مواقع الشركات الناشئة</h5>
-                    <a href="/">قراءة المزيد</a>
-                  </span>
-                </div>
-                <div className="articale">
-                  <img src={BlogImg} alt="art-1" />
-                  <span className="art-info">
-                    <h5>عروض تصميم مواقع الشركات الناشئة</h5>
-                    <a href="">قراءة المزيد</a>
-                  </span>
-                </div>
-                <div className="articale">
-                  <img src={BlogImg} alt="art-1" />
-                  <span className="art-info">
-                    <h5>عروض تصميم مواقع الشركات الناشئة</h5>
-                    <a href="">قراءة المزيد</a>
-                  </span>
-                </div>
-                <div className="articale">
-                  <img src={BlogImg} alt="art-1" />
-                  <span className="art-info">
-                    <h5>عروض تصميم مواقع الشركات الناشئة</h5>
-                    <a href="">قراءة المزيد</a>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <form name="msg" action>
-              <input type="text" name="name" placeholder="الأسم" required />
-              <input
-                type="text"
-                name="name"
-                placeholder="رقم الهاتف"
-                required
-              />
-              <input
-                type="email"
-                name="name"
-                placeholder="البريد الإلكترونى"
-                required
-              />
-              <textarea placeholder="نص الرسالة"></textarea>
-              <button type="submit">إرسال</button>
-            </form>
-          </section>
           <section className="section-two">
             <div className="adresses">
               <div>
