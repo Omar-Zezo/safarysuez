@@ -15,7 +15,7 @@ export default function Footer() {
                   <img src={BlogImg} alt="art-1" />
                   <span className="art-info">
                     <h5>عروض تصميم مواقع الشركات الناشئة</h5>
-                    <a href="">قراءة المزيد</a>
+                    <a href="/">قراءة المزيد</a>
                   </span>
                 </div>
                 <div className="articale">

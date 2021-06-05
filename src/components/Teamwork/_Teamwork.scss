@@ -108,10 +108,20 @@
         left: 50%;
         transform: translateX(-50%);
         bottom: 5px;
+        @media screen and (max-width : 576px){
+          top: 50%;
+          transform: translateY(-50%);
+          right: 10px;
+          left: 100%;
+        }
         i {
           font-size: 15px;
           color: rgba(255, 255, 255, 0.4);
           margin-right: 5px;
+          @media screen and (max-width : 576px){
+            display: block;
+            margin-bottom: 10px;
+          }
           &:hover {
             color: #fff;
           }
