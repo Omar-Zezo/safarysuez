@@ -25,7 +25,7 @@
         color: #fff;
         margin-right: 10px;
         text-transform: uppercase;
-        @media screen and (max-width: 576px) {
+        @media screen and (max-width: 991px) {
           font-size: 18px;
         }
       }
@@ -50,10 +50,10 @@
           }
         }
       }
-      @media screen and (max-width : 576px) {
+      @media screen and (min-width : 577px)and (max-width : 991px) {
         position: absolute;
         left: 0;
-        top: 62px;
+        top: 81px;
         width: 100%;
         display: none;
         background: #4caf50ab;
@@ -91,7 +91,7 @@
       font-size: 25px;
       margin-right: auto;
       display: none;
-      @media screen and (max-width: 576px) {
+      @media screen and (max-width: 991px) {
         display: block;
       }
     }

@@ -29,8 +29,11 @@ export default function Reviews() {
             slidesPerView: 1,
           },
           577: {
-            slidesPerView: 3,
+            slidesPerView: 2,
           },
+          991: {
+            slidesPerView: 3,
+          }
         }}
         className="mySwiper"
       >

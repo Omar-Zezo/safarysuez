@@ -47,6 +47,7 @@
     .all-trips {
       width: 100%;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
       @media screen and (max-width: 576px) {
@@ -66,6 +67,11 @@
         @media screen and (max-width: 576px) {
           width: 100%;
           margin: 0;
+          margin-bottom: 20px;
+        }
+        @media screen and (min-width : 682px) and (max-width: 991px) {
+          width: calc(90% / 2);
+          justify-content: center;
           margin-bottom: 20px;
         }
         &:hover {
